@@ -1,0 +1,51 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3",
+    "body": [
+
+        {
+            "type": "TextBlock",
+            "spacing": "medium",
+            "size": "default",
+            "weight": "bolder",
+            "text": "main Menu",
+            "wrap": true,
+            "maxLines": 0
+        },
+        {
+            "type": "TextBlock",
+            "weight": "bolder",
+            "text": "Welcome to XYZ, what can i do for you today?",
+            "wrap": true,
+            "maxLines": 0
+        }
+    ],
+    "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Option 1"
+    },
+    {
+        "type": "Action.Submit",
+        "title": "Option 2"
+    },
+    {
+        "type": "Action.Submit",
+        "title": "Option 3"
+    },
+    {
+        "type": "Action.Submit",
+        "title": "Option 4"
+    },
+    {
+        "type": "Action.Submit",
+        "title": "Option 5"
+    },
+    {
+        "type": "Action.Submit",
+        "title": "Option 6"
+    }
+
+  ]
+}
